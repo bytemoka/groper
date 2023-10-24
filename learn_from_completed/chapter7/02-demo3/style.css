@@ -1,6 +1,0 @@
-div {
-    --number: 500;
-    width: calc(var(--number) * 1px);
-    background: #0bd;
-    padding: 16px;
-}
