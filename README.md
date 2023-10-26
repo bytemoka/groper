@@ -1,3 +1,3 @@
-# board
+# groper
 
-아무도 나한테 토달지마
+About groper
