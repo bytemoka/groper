@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(229 231 235);
+  z-index: 20;
+  padding: 0 3rem;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.main {
+  margin: 80px 0 0 0;
+  padding: 20px 0 20px 0;
+}
+
+.music {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.animation {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+.nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid rgb(229 231 235);
+  z-index: 20;
+}
+.nav__wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__item {
+  text-align: center;
+  min-width: 33%;
+}
